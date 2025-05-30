@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse, StreamingResponse
 import io
-from utils import predict_on_image, draw_detections, load_model
+from app.utils import predict_on_image, draw_detections, load_model
 
 app = FastAPI(title="LSM-YOLO API", description="API for LSM-YOLO model")
 
