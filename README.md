@@ -31,8 +31,8 @@
 
 ```bash
 # Clone repository
-git clone <repository-url>
-cd Project_DL
+git clone https://github.com/ngo-canhh/LSM-KD.git
+cd LSM-KD
 
 # Cài đặt dependencies
 pip install -r requirements.txt
@@ -90,6 +90,6 @@ Project sử dụng kỹ thuật Knowledge Distillation để:
 
 ## 📊 Đánh giá và Kết quả
 
-- **Metrics**: mAP (mean Average Precision), FPS, Model Size
-- **Visualization**: Confusion matrix, PR curves, Detection examples
+- **Metrics**: mAP (mean Average Precision), Model Size
+- **Visualization**: Ultralytics YOLO visualization
 - **Comparison**: So sánh hiệu suất giữa teacher và student models
